@@ -1,0 +1,18 @@
+# 忽略你指定的大型工具链文件夹
+toolChain/
+
+# 忽略常见的编译生成目录和文件（防止其他大文件混入）
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# 忽略测试输出的临时文件（视你的情况而定）
+#tests-outputs/
+
+# 忽略 IDE 的本地配置文件
+.vscode/
+.idea/
